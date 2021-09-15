@@ -6,6 +6,7 @@
     --background: #46344E;
     --headings-font-family: 'Ubuntu', sans-serif;
     --text-font-family: 'Noto Sans JP', sans-serif;
+    --textbox: #008CBA;
 } 
 *{
     margin: 0;
@@ -75,7 +76,37 @@ hr{
     width: 25%;
     float: right;
 }
+.btn{   
+    background-color: var(--textbox); /* Blue */
+    border: none;
+    color: var(--text);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+      
+}
+.bottom-link{
+    display: inline-block;
+    margin: 1rem;
 
+}
+.lil-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lil-wrapper i{
+    margin-right: 1rem;
+}
+.lil-wrapper a{
+    text-decoration: none;
+    color: var(--text);
+}
+.copyright{
+    margin: 5rem
+}
 /*h1{
     font-family: var(--headings-font-family);
 }
